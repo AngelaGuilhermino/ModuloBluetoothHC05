@@ -18,10 +18,10 @@ void loop() {
     Serial.println(c);
     if (c == '1') {
       digitalWrite(11, HIGH);
-      Serial.println("LED AZUL 1 ON");
-      BT.println("LED AZUL 1 ON");
+      Serial.println("LED ON");
+      BT.println("LED ON");
     } else if (c == '0') {
-      digitalWrite(0, LOW);
+      digitalWrite(11, LOW);
       Serial.println("LED OFF");
       BT.println("LED OFF"); 
     }
